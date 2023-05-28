@@ -1,0 +1,101 @@
+.main-admin{
+    padding-top: 12px;
+    background-color: #2C3333;
+    padding-bottom: 10px;
+}
+
+.table-container{
+    width: 90%;
+    color: white;
+}
+
+.admin-heading{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+
+.user-add-btn{
+    font-size: 22px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: white;
+}
+.user-add-btn:hover,.user-delete:hover{
+    cursor: pointer;
+}
+
+.user-data{
+    border-bottom: 1px solid #0E8388;
+}
+
+.user-add-btn:hover{
+    color: greenyellow;
+}
+
+thead{
+    background-color: #0E8388;
+    border-bottom: 1px solid #0E8388;
+    color: white;
+}
+
+.table-container{
+    border-bottom: 20px solid #0E8388;
+    border-left: 2px solid #0E8388;
+    border-right: 2px solid #0E8388;
+    overflow-x: scroll;
+    overflow: auto;
+}
+
+.modal-header{
+    color: white;
+    background-color: #2C3333;
+}
+
+.modal-body{
+    color: white;
+    background-color: #2C3333;
+}
+
+.save-modal{
+    color: white;
+    background-color: #0E8388;
+    outline: none;
+    border: none;
+}
+
+.save-modal:hover{
+    background-color: aliceblue;
+    color: #2C3333;
+}
+
+
+.modal-footer{
+    background-color: #2C3333;
+}
+
+.modal-input-group{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.name-box{
+    display: flex;
+    column-gap: 9px;
+    align-items: center;
+}
+
+.name-box p{
+    margin-top: 12px;
+}
+
+
+.id-pic{
+    height: 35px;
+    width: 35px;
+    background-color: white;
+    border: 2px solid #0E8388;
+    border-radius: 50%;
+    /* background-image: url('../assets/avatar.JPG'); */
+    background-size: cover;
+}
